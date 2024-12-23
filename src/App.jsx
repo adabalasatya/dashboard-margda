@@ -1,12 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Dashboard from "./pages/Dashboard"; 
-import ProfilePage from "./pages/ProfilePage"; 
+import ProfilePage from "./Pages/ProfilePage"; 
 import CredentialPage from "./pages/CredentialPage";
 import QrScanPage from "./pages/QrScanPage";
 
 const App = () => {
   return (
+  <>
     <Router>
       <Routes>
         <Route path="/" element={<Dashboard />}>
@@ -17,6 +18,7 @@ const App = () => {
         </Route>
       </Routes>
     </Router>
+  </>
   );
 };
 

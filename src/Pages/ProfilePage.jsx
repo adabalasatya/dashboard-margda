@@ -51,9 +51,6 @@ const ProfilePage = () => {
   <p className="text-sm sm:text-base text-gray-500 mt-1 sm:mt-6">Help us know you better by filling out the details below.</p>
 </div>
 
-
-        
-
         {/* Form */}
         <div className="bg-white p-6 shadow-sm rounded-lg">
           <form className="space-y-6" onSubmit={handleSubmit}>
