@@ -121,7 +121,7 @@ const Sidebar = ({ isOpen, toggleSidebar, isMobile }) => {
             <Link
               key={index}
               to={item.link}
-              className={`flex items-center px-3 py-2 text-lg font-medium text-gray-700 rounded-lg hover:bg-orange-500 hover:text-white transition-colors duration-300 ${
+              className={`flex items-center px-4 py-5 text-lg font-medium text-gray-700 rounded-lg hover:bg-orange-500 hover:text-white transition-colors duration-300 ${
                 !isOpen ? "justify-center" : "justify-start"
               }`}
             >
