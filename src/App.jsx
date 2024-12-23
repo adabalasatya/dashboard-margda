@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Dashboard from "./pages/Dashboard"; // Ensure correct casing
+import Dashboard from "./pages/Dashboard"; 
 import ProfilePage from "./pages/ProfilePage"; 
 import CredentialPage from "./pages/CredentialPage";
 import QrScanPage from "./pages/QrScanPage";
