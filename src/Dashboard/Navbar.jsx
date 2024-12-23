@@ -11,7 +11,7 @@ const Navbar = () => {
       {/* Left-aligned Title as a Button (Now a Link to Home with Hover Effect and Responsive Font Size) */}
       <Link 
         to="/" // Navigate to Home when clicked
-        className="absolute left-32 transform -translate-x-1/2 font-semibold tracking-wider sm:text-lg md:text-2xl text-sm cursor-pointer hover:text-blue-500 hover:underline transition duration-300 ease-in-out"
+        className="absolute left-32 transform -translate-x-1/2 font-semibold tracking-wider sm:text-lg md:text-2xl text-sm cursor-pointer hover:text-orange-500  transition duration-300 ease-in-out"
       >
         Dashboard
       </Link>
