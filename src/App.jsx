@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Dashboard from "./pages/Dashboard"; 
+import Dashboard from "./Pages/Dashboard"; 
 import ProfilePage from "./Pages/ProfilePage"; 
-import CredentialPage from "./pages/CredentialPage";
-import QrScanPage from "./pages/QrScanPage";
+import CredentialPage from "./Pages/CredentialPage";
+import QrScanPage from "./Pages/QrScanPage";
 
 const App = () => {
   return (
