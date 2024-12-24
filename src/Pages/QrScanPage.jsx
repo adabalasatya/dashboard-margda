@@ -2,7 +2,7 @@ import React from "react";
 
 const QrScanPage = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100 px-6">
+    <div className="flex items-center justify-center min-h-screen  px-6">
       <div className="w-full max-w-sm p-6 bg-white rounded-lg shadow-md sm:max-w-md ml-16">
         <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">
           QR Code Scanner

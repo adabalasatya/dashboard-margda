@@ -37,7 +37,7 @@ const ProfilePage = () => {
   };
 
   return (
-    <div className="w-full min-h-screen bg-gray-100 flex justify-center items-center px-4 sm:px-6 lg:px-8">
+    <div className="w-full min-h-screen flex justify-center items-center px-4 sm:px-6 lg:px-8">
       
       <div className="bg-white p-8 w-full max-w-4xl shadow-lg rounded-xl ml-16">
 
