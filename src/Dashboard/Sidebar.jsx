@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Menu } from "lucide-react";
 import { Link } from "react-router-dom";
+import { FaWhatsapp } from "react-icons/fa"; // Import WhatsApp icon
 import Logo from "../assets/margdarshakendra-logo.webp";
 
 const Sidebar = ({ isOpen, toggleSidebar, isMobile }) => {
@@ -114,9 +115,9 @@ const Sidebar = ({ isOpen, toggleSidebar, isMobile }) => {
             { title: "Email", icon: "📧", link: "/email" },
             { title: "Template", icon: "📄", link: "/template" },
             { title: "Meeting", icon: "🗓️", link: "/meeting" },
-            { title: "Report", icon: "📊", link: "/report" },
+            { title: "Call Report", icon: "📊", link: "/callreport" },
             { title: "Master Data", icon: "📁", link: "/master-data" },
-            { title: "Whatsapp", icon: "📱", link: "/whatsapp" },
+            { title: "Whatsapp", icon: <FaWhatsapp />, link: "/whatsapp" }, 
           ].map((item, index) => (
             <Link
               key={index}
