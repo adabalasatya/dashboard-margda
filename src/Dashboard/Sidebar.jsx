@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Menu } from "lucide-react";
 import { Link } from "react-router-dom";
-import { FaWhatsapp } from "react-icons/fa"; // Import WhatsApp icon
+import { FaWhatsapp, FaQrcode, FaVideo } from "react-icons/fa"; // Import WhatsApp, QR Code, and Video Call icons
 import Logo from "../assets/margdarshakendra-logo.webp";
 
 const Sidebar = ({ isOpen, toggleSidebar, isMobile }) => {
@@ -93,7 +93,7 @@ const Sidebar = ({ isOpen, toggleSidebar, isMobile }) => {
             {[
               { title: "Profile", icon: "👤", link: "/profile" },
               { title: "Credential", icon: "🔑", link: "/credential" },
-              { title: "Qr Scan", icon: "📷", link: "/qr-scan" },
+              { title: "Qr Scan", icon: <FaQrcode />, link: "/qr-scan" }, // QR Code Icon
             ].map((item, index) => (
               <Link
                 key={index}
@@ -114,10 +114,10 @@ const Sidebar = ({ isOpen, toggleSidebar, isMobile }) => {
           {[
             { title: "Email", icon: "📧", link: "/email" },
             { title: "Template", icon: "📄", link: "/template" },
-            { title: "Meeting", icon: "🗓️", link: "/meeting" },
+            { title: "Meeting", icon: <FaVideo />, link: "/meeting" }, // Updated Meeting Icon
             { title: "Call Report", icon: "📊", link: "/callreport" },
             { title: "Master Data", icon: "📁", link: "/master-data" },
-            { title: "Whatsapp", icon: <FaWhatsapp />, link: "/whatsapp" }, 
+            { title: "Whatsapp", icon: <FaWhatsapp className="text-green-500" />, link: "/whatsapp" },
           ].map((item, index) => (
             <Link
               key={index}
